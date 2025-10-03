@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Lines Background</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="background-container">
+        <canvas id="lines-canvas"></canvas>
+    </div>
+    
+    <!-- Control Panel -->
+    <div id="control-panel" class="control-panel">
+        <div class="control-header">
+            <h3>🎮 Controls</h3>
+            <button id="toggle-controls" class="toggle-btn">🔧</button>
+        </div>
+        <div class="controls-content">
+            <div class="control-group">
+                <label for="node-count">Nodes: <span id="node-count-value">80</span></label>
+                <input type="range" id="node-count" min="20" max="200" value="80" class="slider">
+            </div>
+            
+            <div class="control-group">
+                <label for="mouse-influence">Cursor Attraction: <span id="mouse-influence-value">100</span>px</label>
+                <input type="range" id="mouse-influence" min="50" max="300" value="100" class="slider">
+            </div>
+            
+            <div class="control-group">
+                <label for="line-distance">Line Distance: <span id="line-distance-value">150</span>px</label>
+                <input type="range" id="line-distance" min="50" max="400" value="150" class="slider">
+            </div>
+            
+            <div class="control-group">
+                <label for="line-width">Line Width: <span id="line-width-value">1</span>px</label>
+                <input type="range" id="line-width" min="0.5" max="5" step="0.5" value="1" class="slider">
+            </div>
+            
+            <div class="control-group">
+                <label for="animation-speed">Speed: <span id="animation-speed-value">0.5</span></label>
+                <input type="range" id="animation-speed" min="0.1" max="3" step="0.1" value="0.5" class="slider">
+            </div>
+            
+            <div class="control-group color-group">
+                <label>Colors:</label>
+                <div class="color-controls">
+                    <div class="color-input-group">
+                        <label for="primary-color">Primary</label>
+                        <input type="color" id="primary-color" value="#00d4ff" class="color-picker">
+                    </div>
+                    <div class="color-input-group">
+                        <label for="secondary-color">Secondary</label>
+                        <input type="color" id="secondary-color" value="#0099cc" class="color-picker">
+                    </div>
+                    <div class="color-input-group">
+                        <label for="accent-color">Accent</label>
+                        <input type="color" id="accent-color" value="#0066ff" class="color-picker">
+                    </div>
+                </div>
+            </div>
+            
+            <div class="control-group">
+                <button id="reset-defaults" class="action-btn">🔄 Reset</button>
+                <button id="random-preset" class="action-btn">🎲 Random</button>
+                <button id="save-preset" class="action-btn">💾 Save</button>
+            </div>
+        </div>
+    </div>
+    
+    <div class="content">
+        <h1>🌟 Interactive Lines Universe</h1>
+        <p>Move your cursor to control the cosmic dance! Use the controls to customize your experience.</p>
+        <div class="stats">
+            <div class="stat-item">
+                <span class="stat-label">FPS:</span>
+                <span id="fps-counter">60</span>
+            </div>
+            <div class="stat-item">
+                <span class="stat-label">Connections:</span>
+                <span id="connection-counter">0</span>
+            </div>
+        </div>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
