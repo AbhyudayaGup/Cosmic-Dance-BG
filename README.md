@@ -11,13 +11,13 @@
 
 ---
 
-## 🎯 **Project Overview**
+##  **Project Overview**
 
 Cosmic Dance BG is a sophisticated **real-time particle physics simulation** that creates mesmerizing interactive visual experiences through advanced mathematical algorithms and dynamic force calculations. The system implements complex **N-body interactions**, **distance-based opacity mapping**, and **real-time gravitational attraction models** to create a living, breathing cosmic environment.
 
 ---
 
-## 🧮 **Core Mathematical Algorithms**
+##  **Core Mathematical Algorithms**
 
 ### **🔬 Particle Physics Engine**
 - **Euclidean Distance Calculations**: Implements the Pythagorean theorem (`√(dx² + dy²)`) for precise spatial relationship mapping
@@ -38,7 +38,7 @@ Cosmic Dance BG is a sophisticated **real-time particle physics simulation** tha
 
 ---
 
-## ⚡ **Advanced Features**
+##  **Advanced Features**
 
 ### **🌟 Interactive Physics Simulation**
 - **Mouse-Based Gravitational Fields**: Your cursor becomes a dynamic force generator
@@ -64,7 +64,7 @@ Cosmic Dance BG is a sophisticated **real-time particle physics simulation** tha
 
 ---
 
-## 🚀 **Sophisticated Implementations**
+##  **Sophisticated Implementations**
 
 ### **Mathematical Foundations**
 ```
@@ -90,7 +90,7 @@ Pulse Effect = base_size + sin(timestamp × frequency) × amplitude
 
 ---
 
-## 🎮 **Interactive Control Systems**
+##  **Interactive Control Systems**
 
 | Parameter | Algorithm | Effect |
 |-----------|-----------|---------|
@@ -103,7 +103,7 @@ Pulse Effect = base_size + sin(timestamp × frequency) × amplitude
 
 ---
 
-## 🌈 **Preset Algorithms**
+##  **Preset Algorithms**
 
 ### **Calm Mode**: Optimized for Relaxation
 - Reduced particle density for minimal visual noise
@@ -127,7 +127,7 @@ Pulse Effect = base_size + sin(timestamp × frequency) × amplitude
 
 ---
 
-## 🔧 **Technical Achievements**
+##  **Technical Achievements**
 
 - **Real-Time Physics Simulation** running at consistent 60 FPS
 - **Advanced Mathematical Modeling** of particle interactions
@@ -139,9 +139,9 @@ Pulse Effect = base_size + sin(timestamp × frequency) × amplitude
 
 ---
 
-## 🎯 **Experience the Cosmic Dance**
+##  **Experience the Cosmic Dance**
 
-**🌐 [Launch Live Demo](https://cosmic-dance-bg.netlify.app/)**
+** [Launch Live Demo](https://cosmic-dance-bg.netlify.app/)**
 
 Immerse yourself in a world where mathematics meets art, where physics algorithms create beauty, and where your interaction shapes the cosmic dance of particles in real-time.
 
@@ -149,10 +149,10 @@ Immerse yourself in a world where mathematics meets art, where physics algorithm
 
 ## 👨‍💻 **Creator**
 
-**Abhyudaya Gupta** - *Algorithm Designer & Physics Simulation Engineer*
+**Abhyudaya Gupta** - *Student & Coder*
 
 [![GitHub](https://img.shields.io/badge/GitHub-AbhyudayaGup-181717?style=flat-square&logo=github)](https://github.com/AbhyudayaGup)
 
 ---
 
-*Built with passion for mathematical beauty and interactive physics simulations* ✨
+*Built with passion for mathematical beauty and interactive physics simulations*
